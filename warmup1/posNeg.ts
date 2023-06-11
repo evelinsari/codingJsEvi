@@ -17,15 +17,3 @@ console.log(result23)
 console.log(result24)
 
 
-/*
-function posNeg(a: number, b:number, negative: boolean) {
-    if (((a > 0 && b < 0) || (a < 0 && b > 0)) && !negative) {
-        return true;
-    } 
-    if (negative === true && ( a < 0 && b < 0)) {
-        return true ;
-    }
-    
-    return false;
-  }
-*/

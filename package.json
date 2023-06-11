@@ -6,7 +6,7 @@
   "scripts": {
     
     "build": "tsc",
-    "start": "node out/warmup2/arrayFront9.js"
+    "start": "node out/string1/withoutEnd2.js"
   },
   "keywords": [],
   "author": "",
