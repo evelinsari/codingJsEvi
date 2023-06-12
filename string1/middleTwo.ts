@@ -7,15 +7,21 @@ function middleTwo(str:string) {
         counter += 1
     }
 
-    if (counter % 2 === ) {
-        
+    let textLength = counter
+
+    if (textLength % 2 !== 0) {
+        let index = (textLength -1) /2
+        return str[index] + str[index + 1]
+    } else  {
+        let index = textLength / 2 
+        return str[index] + str[index + 1]
     }
 
 
 }
 
 let middle1 = middleTwo('string') // ri
-let middle2 = middleTwo('code') // ode
+let middle2 = middleTwo('code') // od
 let middle3 = middleTwo('Practice') // ct
 
 console.log(middle1)
