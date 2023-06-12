@@ -6,7 +6,7 @@
   "scripts": {
     
     "build": "tsc",
-    "start": "node out/string1/middleTwo.js"
+    "start": "node out/string1/endsLy.js"
   },
   "keywords": [],
   "author": "",
