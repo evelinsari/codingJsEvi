@@ -13,7 +13,7 @@ function middleTwo(str:string) {
         let index = (textLength -1) /2
         return str[index] + str[index + 1]
     } else  {
-        let index = textLength / 2 
+        let index = textLength / 2 - 1
         return str[index] + str[index + 1]
     }
 
