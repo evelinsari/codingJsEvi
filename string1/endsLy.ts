@@ -1,8 +1,7 @@
 function endsLy(str: string) {
-
-    if (!str) {
-        return false
-    }
+  if (!str) {
+    return false;
+  }
   let length = 0;
 
   while (str[length] !== undefined) {
@@ -11,15 +10,7 @@ function endsLy(str: string) {
 
   let lastTwoChar = str[length - 2] + str[length - 1];
 
-  let index = 0;
-  while (str[index] !== undefined) {
-    if (lastTwoChar === "ly") {
-      index += 1;
-      return true;
-    } else  {
-      return false;
-    }
-  }
+  return lastTwoChar === "ly";
 }
 
 let endl1 = endsLy("oddly"); // true
