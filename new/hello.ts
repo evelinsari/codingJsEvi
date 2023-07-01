@@ -1,22 +1,22 @@
 
-let numberList:number[] = [1, 2, 3, 10, 15, 60, 70, 12]
+// let numberList:number[] = [1, 2, 3, 10, 15, 60, 70, 12]
 
-function numberL(number:number[]): number[] {
-    let num10 : number [] = []
-    let index = 0
+// function numberL(number:number[]): number[] {
+//     let num10 : number [] = []
+//     let index = 0
 
-    while (number[index] !== undefined) {
-        let num =  number[index]
+//     while (number[index] !== undefined) {
+//         let num =  number[index]
 
-        if(num > 10)
-        num10 = [...num10, num]
-        index += 1
-    }
-    return num10
+//         if(num > 10)
+//         num10 = [...num10, num]
+//         index += 1
+//     }
+//     return num10
 
-}
-let res = numberL(numberList)
-console.log(res)
+// }
+// let res = numberL(numberList)
+// console.log(res)
 
 
 type Person = {
