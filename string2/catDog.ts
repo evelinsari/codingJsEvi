@@ -18,7 +18,7 @@ function catDog(str: string): boolean {
   return counterCat === counterDog;
 }
 
-let dog1 = catDog('dogdogcat'); // true
+let dog1 = catDog("dogdogcat"); // true
 // let dog2 = catDog("catcat"); // false
 // let dog3 = catDog("1cat1cadodog"); // true
 

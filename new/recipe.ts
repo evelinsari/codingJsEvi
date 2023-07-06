@@ -88,7 +88,7 @@ let recipes: Recipe[] = [
     cookTime: 60,
     ingredients: [
       "plain flour",
-      " hot water",
+      "hot water",
       "salt",
       "pork mince",
       "shiitake mushrooms",
@@ -134,3 +134,30 @@ function waterPlease(recipes: Recipe[]) {
 
 let water = waterPlease(recipes);
 console.log(water);
+console.log(
+  "-----------------------------------------------++++++++++++++++++++++++++++++++++++++++-----------"
+);
+
+function noPlainFlour(recipes: Recipe[]) {
+  let i = 0;
+  let n = 0;
+  
+  let gmRecipes: Recipe[] = [];
+  while (recipes[i] !== undefined) {
+    n = 0;
+    let isGm = true;
+    while (recipes[i].ingredients[n] !== undefined) {
+      if (recipes[i].ingredients[n] === "plain flour") {
+        isGm = false;
+      }
+      n++;
+    }
+
+    if (isGm) gmRecipes = [...gmRecipes, recipes[i]];
+    i++;
+  }
+  return gmRecipes;
+}
+
+let flour = noPlainFlour(recipes);
+console.log(flour);

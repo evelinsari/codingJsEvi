@@ -6,7 +6,7 @@
   "scripts": {
     
     "build": "tsc",
-    "start": "node out/new/recipe.js"
+    "start": "node out/codeWars6/countSmileyFaces.js"
   },
   "keywords": [],
   "author": "",

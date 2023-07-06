@@ -22,10 +22,10 @@ function wordEnds(str: string, word: string) {
   return newEnd;
 }
 
-////let ends1 = wordEnds("abcXY123XYijk", "XY"); // c13i
-//let ends2 = wordEnds('XY123XY', 'XY') // 13
+let ends1 = wordEnds("abcXY123XYijk", "XY"); // c13i
+let ends2 = wordEnds('XY123XY', 'XY') // 13
 let ends3 = wordEnds('XY1XY', 'XY') // 11
 
-//console.log(ends1);
-//console.log(ends2)
+console.log(ends1);
+console.log(ends2)
 console.log(ends3)
